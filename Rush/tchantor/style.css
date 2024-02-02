@@ -5,11 +5,8 @@ body {
   float: left;
   width:  100%;
   height: 100%;
-  
   object-fit:cover;
 }
-
-
 .container {
   max-width: 800px;
 }
@@ -21,8 +18,6 @@ body {
   text-align: center;
   padding-bottom: 30px;
 }
-
-
 .skill-item {
   margin-bottom: 30px;
 }
