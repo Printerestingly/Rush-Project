@@ -40,9 +40,9 @@ header {
     border-radius: 50%;
 }
 
-/* img :hover{
-    transform: scale(1.1);
-} */
+img:hover {
+    transform: scale(1.02);
+}
 
 .card button {
     position: absolute;

@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: black;
+    margin-top: 80px;
+    /* background-color: gray; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+body.darkmode {
+    background-color: gray;
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container,
+    .about-container,
+    .skill-container {
+        padding: 0 20px;
+    }
+
+    .section {
+        padding: 20px 0;
+    }
+}

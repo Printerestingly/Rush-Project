@@ -1,0 +1,54 @@
+.skill-container {
+    height: 370px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 30px auto;
+}
+
+.head-skill {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.head-skill h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mySkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mySkills h1,
+h3 {
+    text-align: center;
+}
+
+.lng-container,
+.coding-container {
+    width: 50%;
+    padding: 3rem 2rem;
+    background: #f7f7f7;
+    height: auto;
+    border-radius: 10px;
+    color: black;
+}
+
+.coding-container {
+    margin-top: 20px;
+}
+
+.Language,
+.Code {
+    padding-top: 0.7rem;
+}
+
+.mySkills .lng-container,
+.mySkills .coding-container {
+    flex: 1;
+    margin: 0 10px;
+}
